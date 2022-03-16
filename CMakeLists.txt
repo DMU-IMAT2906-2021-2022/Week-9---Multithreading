@@ -29,7 +29,7 @@ install(FILES "Main.cpp" "FileProcess.cpp" "FileProcess.h" DESTINATION src)
       set(GROUP "include${GROUP}")
     endif()
 
-set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT Main)
+#set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT Main)
 	
 set(CMAKE_SUPPRESS_REGENERATION true)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
